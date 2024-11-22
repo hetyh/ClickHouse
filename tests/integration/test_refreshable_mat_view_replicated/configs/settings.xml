@@ -1,0 +1,10 @@
+<clickhouse>
+    <profiles>
+        <default>
+            <allow_experimental_refreshable_materialized_view>1</allow_experimental_refreshable_materialized_view>
+            <session_timezone>Etc/UTC</session_timezone>
+            <cloud_mode>1</cloud_mode>
+            <cloud_mode_engine>1</cloud_mode_engine>
+        </default>
+    </profiles>
+</clickhouse>
