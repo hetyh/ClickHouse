@@ -5,7 +5,7 @@ from datetime import datetime
 from typing import Optional
 
 import pytest
-from jinja2 import Template, Environment
+from jinja2 import Environment, Template
 
 import helpers.client
 from helpers.cluster import ClickHouseCluster
